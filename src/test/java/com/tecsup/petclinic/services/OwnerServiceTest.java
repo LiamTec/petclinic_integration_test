@@ -18,7 +18,7 @@ class OwnerServiceTest {
 
     @Test
     void testCreateAndFindOwner() throws OwnerNotFoundException {
-        Owner owner = new Owner("Carlos", "Perez", "Lima", "Av. Principal", "99999999");
+        Owner owner = new Owner("Carlos", "Perez", "Lima", "Av. Rosales", "132456754");
         Owner created = ownerService.create(owner);
         assertNotNull(created.getId());
 
